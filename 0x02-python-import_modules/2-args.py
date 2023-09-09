@@ -5,6 +5,11 @@ if __name__ == "__main__":
 	argc = len(sys.argv) - 1
 	argv = sys.argv[1:]
 
+	if argc == 1:
+		print("{:d} argument:".format(argc))
+	elif argc > 1:
+		print("{:d} arguments:".format(argc))
+	else:
+		print("{:d} arguments.".format(argc))
 	for i, arguments in enumerate(argv, 1):
-		if argc == 1:
-			print("{:d} argument:".format(argv))
+		print("{:d}: {:s}".format(i, arguments))
