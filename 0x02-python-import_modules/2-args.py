@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
+	"""Prints the argv"""
 	import sys
 
 	argc = len(sys.argv) - 1

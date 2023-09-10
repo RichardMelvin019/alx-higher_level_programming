@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
+	"""Prints the sum of the argv"""
 	import sys
 
 	argv = sys.argv[1:]
