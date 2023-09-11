@@ -7,5 +7,5 @@ if __name__ == "__main__":
     result = 0
 
     for i, arguments in enumerate(argv, 1):
-	    result += int(arguments)
+        result += int(arguments)
     print("{}".format(result))

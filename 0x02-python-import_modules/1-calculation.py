@@ -14,4 +14,3 @@ if __name__ == "__main__":
     print("{:d} - {:d} = {:d}".format(a, b, sub_result))
     print("{:d} * {:d} = {:d}".format(a, b, mul_result))
     print("{:d} / {:d} = {:d}".format(a, b, div_result))
-

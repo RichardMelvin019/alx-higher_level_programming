@@ -7,10 +7,10 @@ if __name__ == "__main__":
     argv = sys.argv[1:]
 
     if argc == 1:
-	    print("{:d} argument:".format(argc))
+        print("{:d} argument:".format(argc))
     elif argc > 1:
-	    print("{:d} arguments:".format(argc))
+        print("{:d} arguments:".format(argc))
     else:
-	    print("{:d} arguments.".format(argc))
+        print("{:d} arguments.".format(argc))
     for i, arguments in enumerate(argv, 1):
-	    print("{:d}: {:s}".format(i, arguments))
+        print("{:d}: {:s}".format(i, arguments))
