@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
-    """Prints list of names in a file."""
-    import hidden_4
+	"""Prints list of names in a file"""
+	import hidden_4
 
-    names = dir(hidden_4)
-    for i in names:
-        if i[:2] != "__":
-            print(i)
+	names = dir(hidden_4)
+	for i in names:
+		if i[:2] != "__":
+			print(i)
